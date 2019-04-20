@@ -1,0 +1,40 @@
+html {
+    font-size: 100px;
+}
+
+body {
+    margin: 0px 0px;
+    font-family: Glyphicons Halflings;
+}
+
+.container {
+    margin: 0px auto;
+    padding: 0px 0px;
+    width: 1330px;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 640px;
+        min-width: 300px;
+    }
+}

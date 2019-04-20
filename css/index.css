@@ -1,0 +1,609 @@
+/*顶部通条*/
+.container .top{
+    background-color: #bcbcbc;
+}
+.container .top span {
+    line-height: 40px;
+}
+.container .top .right {
+    float: right;
+    line-height: 40px;
+    background-color: black;
+    color: white;
+}
+/*顶部通条结束*/
+/*导航栏pc*/
+.container .logo{
+    width: 230px;
+    height:80px;
+}
+.container .logo a img{
+    width: 100%;
+    height: 40px;
+}
+.container .nav{
+    width: 1100px;
+    height: 80px;
+}
+.container .nav ul{
+    height: 40px;
+    width:100%;
+    margin-top: 18px;
+}
+.container .nav ul li{
+    width:100px;
+    height: 30px;
+    list-style: none;
+    float: left;
+    line-height: 30px;
+    text-align: center;
+}
+.container .nav ul li div{
+    overflow: hidden;
+    height: 0px;
+    max-height: 300px;
+    position: relative;
+    z-index: 100;
+}
+.container .nav ul li div dd{
+    width: 100px;
+}
+.container .nav ul li:hover{
+    background-color:#067a60;
+}
+.container .nav ul li:hover div{
+    height: auto;
+    background-color:#bcbcbc;
+    transition: 0.8s;
+}
+.container>.nav > ul > li:hover >a{
+    color: white;
+}
+.container .nav .er dd:hover{
+    background-color:#067a60;
+}
+.container .nav .er dd:hover>a{
+    color: white;
+}
+/*导航栏结束pc*/
+/*手机导航栏*/
+.container .phoneNav span{
+    font-size: 0.4rem;
+    float: right;
+    padding-right: 50px;
+}
+.nav_menu{
+    display: none !important;
+}
+/*手机导航栏结束*/
+/*轮播图*/
+.lunbo{
+    width: 100%;
+    position: relative;
+    margin-top: 60px;
+}
+/*轮播图结束*/
+/*新闻视频*/
+.news{
+    width: 100%;
+    margin-top: 20px;
+}
+.news_left{
+    height:450px;
+}
+.news .news_left video{
+    width: 100%;
+    height: 450px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.news_right{
+    height:450px;
+    background-color:white;
+}
+.news_right_top{
+
+}
+.news_right_top_t{
+    width: 100%;
+    height:75px;
+    border-bottom: 1px grey solid;
+}
+.news_right_top_l h2{
+    padding-left:20px;
+    color: red;
+    font-size: 0.3rem;
+    font-weight:600;
+}
+.news_right_top_r{
+    width: 220px;
+    height: 34px;
+    margin-top:25px;
+    padding: 0 0;
+}
+.news_right_top_r ul{
+    width: 100%;
+    height: 100%;
+}
+.news_right_top_r ul li{
+    width: 50%;
+    height: 100%;
+    line-height: 34px;
+    text-align: center;
+    color: white;
+}
+.news_right_top_r ul li:first-child{
+    background-color:black;
+}
+.news_right_top_r ul li:last-child{
+    background-color:red;
+}
+.news_right_top_r ul li a{
+    color: white;
+}
+.phoneNewst{
+    width:100%;
+    height:50px;
+    margin-top: 15px;
+    border-bottom: 1px grey solid;
+}
+.phoneNewst span{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width: 50%;
+    text-align: center;
+    font-size: 0.16rem;
+}
+.phoneNewst span:first-child{
+    background-color:red;
+    color: white;
+    font-weight:400;
+}
+.phoneNewst span:last-child{
+    background-color:black;
+    color: white;
+    font-weight: 400;
+}
+.news .news_right .news_right_bottom{
+    width: 100%;
+    height: 220px;
+}
+.news_right_bottom_tiao{
+    margin-top: 15px;
+    width: 100%;
+    height: 110px;
+    border-bottom: grey 1px dashed;
+    overflow: hidden;
+    flex-wrap:wrap;
+}
+.news_right_bottom_tiao:last-child{
+    border-bottom:none;
+}
+.news_right_bottom_l.tu{
+    width:1.6rem;
+    height:1rem;
+}
+.news_right_bottom_l img{
+    width:2rem;
+    height:1rem;
+}
+.news_right_bottom_l .wenzi{
+    height: 1.2rem;
+    margin-left:2rem;
+    overflow:hidden;
+    margin-top: 0px;
+    padding-left: 5px;
+}
+.news_right_bottom_l h3{
+    margin-top: 0px;
+    font-size: 0.18rem;
+}
+.news_right_bottom_l h3 a{
+    margin-top: 0.1rem;
+    color: #337ab7;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.news_right_bottom_l p{
+    padding-top: 0.1rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+/*文字*/
+.middle{
+    width: 100%;
+    height:2rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    flex-wrap:wrap;
+}
+.middle h4{
+    margin-top: 10px;
+    color: #979797;
+    font-size: 0.18rem;
+    font-weight: 100;
+}
+.middle h1{
+    color:#067a60;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.middle h6{
+    color: #979797;
+}
+.middle p:first-child{
+    color: #333333;
+}
+.middle p:last-child{
+    color:  #067a60;
+}
+/*tab選項卡*/
+ .middle2_top .list {
+     height: 3.4rem;
+     width: 2rem;
+     margin-left: 0px;
+     margin-right: 0px;
+     float: left;
+ }
+.middle2_top .list > li {
+    width: 1.81rem;
+    height: 0.4rem;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    line-height: 0.4rem;
+    margin-bottom: 0.42rem;
+}
+.middle2_top .list > li > span {
+    display: inline-block;
+    color: #067a60;
+    border: 1px solid #067a60;
+    border-radius: 50%;
+    padding: 8px;
+    line-height: 8px;
+}
+.zf {
+    margin: 0 0;
+    padding: 0 0;
+    float: left;
+}
+.show {
+    margin: 0 0;
+    padding: 0 0;
+    float: left;
+}
+.hidden {
+    display: none;
+}
+.middle2_top #tab li:hover,.bottom_tab ul li:hover,.bottom_tab ul li:hover a{
+    background-color: #067a60;
+    color:white;
+}
+.middle2_top #tab li:hover span{
+    color: white;
+    border:1px white solid;
+}
+/*手机端tab*/
+.phonemiddle2{
+    margin-top:20px;
+}
+.phonemiddle2 ul{
+    width: 100%;
+    height: 50px;
+    margin-top:20px;
+}
+.phonemiddle2 ul li{
+    float: left;
+    width: 25%;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    color: #979797;
+}
+.phonemiddle2 ul li:hover{
+    background-color: #067a60;
+    color: white;
+}
+#phonetu div img{
+    width: 100%;
+}
+.show2{
+  width: 100%;
+}
+.hidden2{
+    display: none;
+}
+/*手机端tab结束*/
+/*手机tab端底部图片*/
+.middle2_top_bottom{
+    width: 100%;
+    height:1.2rem;
+    margin-top: 10px;
+    position: relative;
+}
+.middle2_top_bottom ul{
+    width: 100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    height:auto;
+    position: absolute;
+}
+.middle2_top_bottom ul li{
+    width: 10%;
+    height:auto;
+}
+.middle2_top_bottom ul li img{
+    width: 90%;
+    height:auto;
+}
+@media screen and (max-width: 768px){
+    .middle2_top_bottom{
+        height:5.4rem;
+    }
+    #phone_middle2_top_bottom ul{
+        flex-wrap:wrap;
+        justify-content:space-between;
+    }
+    #phone_middle2_top_bottom ul li{
+        width: 33.33%;
+        padding-top: 5px;
+    }
+}
+/*手机端底部结束*/
+/*图片旋转*/
+.middle2_top_bottom .dong >li:hover{
+    transform:rotateX(90deg);
+    transition:1s;
+}
+/*图片旋转结束*/
+/*tab3*/
+.bottom{
+    width: 100%;
+    height: 5rem;
+}
+.bottom ul{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid #a2cdc4;
+}
+.bottom ul li{
+    width: 11%;
+    line-height: 40px;
+    font-size:0.2rem;
+    text-align: center;
+}
+.bottom div{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.bottom div img{
+    width: 100%;
+    height:471px;
+}
+.bian{
+    background-color: #067a60;
+    color:white;
+}
+.bubian{
+    background-color: white;
+    color:#979797;
+}
+.bottom_tab ul li a:active{
+    color:white;
+}
+/*又是一栏图*/
+.tu2{
+    width: 100%;
+    margin-top: 60px;
+}
+.tu2 ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tu2 ul li{
+    width: 13%;
+}
+.tu2 ul li img{
+    width: 90%;
+    height: 1.3rem;
+}
+@media screen and (max-width: 786px) {
+    .tu2{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .tu2 ul li{
+        width: 33.33%;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    .tu2 ul li img{
+        width: 90%;
+    }
+}
+.middle3{
+    margin-top: 20px;
+    text-align: center;
+}
+.middle3 h6{
+    color: #067a60;
+}
+.middle3 h1{
+    margin-top: 0px;
+}
+/*tab4*/
+.tab3{
+    width: 100%;
+    height: 360px;
+    position: relative;
+    margin-top: 20px;
+}
+.tab3 ul{
+    width: 100%;
+    height: 40px;
+}
+.tab3 ul li{
+    width: 20%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 0.2rem;
+    color: #979797;
+    float: left;
+    border: 1px #979797 solid;
+    padding-left: 15px;
+    margin-right: 20px;
+}
+.tab3 ul li span{
+    display: inline-block;
+    border-radius: 50%;
+    padding: 8px;
+    line-height: 15px;
+    text-align: center;
+}
+.li1{
+    background-color:#067a60 ;
+    color: white;
+}
+.li2{
+    background-color:#eee;
+    color: #979797;
+}
+.span1{
+    border: 1px solid white;
+    color: white;
+}
+.span2{
+    color: #067a60;
+    border: 1px solid #067a60;
+}
+.tab3 div{
+    width: 100%;
+    margin-top: 40px;
+    position: absolute;
+
+}
+.tab3 div img{
+    width: 320px;
+    height: 250px;
+    float: left;
+    padding-left: 15px;
+}
+.zhenbottom{
+    width: 100%;
+    height: 260px;
+    background-color:black;
+}
+
+.zhenbottom ul{
+    display: flex;
+    margin-left: 25px;
+    justify-content: space-between;
+}
+.zhenbottom ul li{
+    margin-top: 25px;
+    width: 11%;
+    color: #979797;
+}
+.zhenbottom>div{
+    width: 60%;
+    height:130px;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+.zhenbottom div>div{
+    width:33.33%;
+    height: 128px;
+    float: left;
+}
+.zhenbottom div>div>img{
+    width: 100%;
+}
+.zhenbottom div .m{
+    width: 16%;
+}
+.zhenbottom div .r{
+    width: 46%;
+}
+.zhenbottom div .m img{
+    width: 100%;
+    height: 84%;
+    margin-top: 4%;
+}
+.zhenbottom div .r{
+    margin-left: 10px;
+}
+.zhenbottom div .r h4,.zhenbottom div .r p{
+    color: white;
+    font-size: 0.14rem;
+    margin-top: 0px;
+}
+@media screen and (max-width: 786px) {
+    .tab3 ul{
+        width: 100%;
+    }
+
+    .tab3 ul li{
+        width: 49%;
+        height: 40px;
+        line-height: 40px;
+        font-size: 0.2rem;
+        color: #979797;
+        float: left;
+        margin: 0 auto;
+        /*border: 1px #979797 solid;*/
+    }
+    .tab3 div{
+        width: 100%;
+        height: 380px;
+        overflow: hidden;
+    }
+    .tab3 div img{
+        width: 50%;
+        height: 190px;
+        float: left;
+        padding-top: 5px;
+    }
+    .zhenbottom{
+        margin-top: 110px;
+        width: 100%;
+        height: 280px;
+    }
+    .zhenbottom div{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .zhenbottom div .m{
+        width: 20%;
+        margin-left: 0px;
+    }
+    .zhenbottom div .m img{
+        width: 100%;
+        height:80%;
+
+    }
+    .zhenbottom div .l{
+        width: 40%;
+        margin-left: 0px;
+    }
+    .zhenbottom div .l img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
